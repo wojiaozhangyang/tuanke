@@ -1,1 +1,173 @@
 /* pages/order/index.wxss */
+
+.order {
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.header {
+  height: 118rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerImg image {
+  margin-top: 10rpx;
+  width: 60rpx;
+  height: 57rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerImg view {
+  height: 24rpx;
+  font-size: 25rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(60, 60, 60, 1);
+  line-height: 44rpx;
+  text-align: center;
+}
+
+.listBlock {
+  width: 690rpx;
+  height: 307rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 7rpx 38rpx 0rpx rgba(218, 215, 215, 0.64);
+  border-radius: 10rpx;
+  margin: 15rpx 30rpx auto;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 28rpx 0 21rpx;
+  padding-top: 23rpx;
+}
+
+.orderCode {
+  height: 19rpx;
+  font-size: 20rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  line-height: 32rpx;
+}
+
+.orderOk {
+  height: 21rpx;
+  font-size: 22rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(236, 93, 61, 1);
+  line-height: 32rpx;
+}
+
+.listContent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.listImg {
+  width: 142rpx;
+  height: 139rpx;
+  border-radius: 10rpx;
+  padding-top: 20rpx;
+  margin-left: 23rpx;
+}
+
+.listInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11rpx;
+}
+
+.listTitle {
+  height: 27rpx;
+  font-size: 28rpx;
+  font-family: PingFang;
+  font-weight: 500;
+  color: rgba(60, 60, 60, 1);
+  line-height: 35rpx;
+  margin-top: 15rpx;
+}
+
+.listDate {
+  height: 21rpx;
+  font-size: 22rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  line-height: 32rpx;
+  margin-top: 14rpx;
+}
+
+.listDesc {
+  height: 17rpx;
+  font-size: 18rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  line-height: 32rpx;
+  margin-top: 14rpx;
+}
+
+.listSum {
+  height: 22rpx;
+  font-size: 23rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(60, 60, 60, 1);
+  line-height: 35rpx;
+  margin-left: 380rpx;
+}
+
+.line {
+  height: 1rpx;
+  background-color: #f0f0f0;
+}
+
+.listBottom {
+  display: flex;
+  margin-left: 380rpx
+}
+
+.deldete {
+  margin-top: 20rpx;
+  width: 125rpx;
+  height: 45rpx;
+  background: rgba(224, 224, 224, 1);
+  border-radius: 22rpx;
+  line-height: 29rpx;
+  text-align: center;
+}
+
+.deldete text {
+  width: 36rpx;
+  height: 18rpx;
+  font-size: 18rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.tell {
+  margin-top: 20rpx;
+  width: 125rpx;
+  height: 45rpx;
+  background: rgba(20, 186, 98, 1);
+  border-radius: 22rpx;
+  line-height: 29rpx;
+  text-align: center;
+  margin-left: 20rpx;
+}
+
+.tell text {
+  width: 36rpx;
+  height: 18rpx;
+  font-size: 18rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}

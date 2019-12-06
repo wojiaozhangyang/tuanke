@@ -5,16 +5,16 @@
 	},
 	"setting": {
 		"urlCheck": false,
-		"es6": false,
-		"enhance": true,
+		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
 		"autoAudits": false,
+		"checkInvalidKey": true,
+		"enhance": true,
+		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
-		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
 		"babelSetting": {
@@ -55,7 +55,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 3,
 			"list": [
 				{
 					"id": 0,
@@ -76,6 +76,12 @@
 					"name": "注册",
 					"pathName": "pages/welcome/register/index",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单",
+					"pathName": "pages/order/index",
 					"scene": null
 				}
 			]
