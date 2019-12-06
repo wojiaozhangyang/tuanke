@@ -1,0 +1,93 @@
+.header {
+  position: relative;
+  background-color: rgba(245, 245, 245, 1);
+  height: 690rpx;
+}
+
+.headerBackground {
+  width: 750rpx;
+  height: 386rpx;
+  background: linear-gradient(261deg, rgba(55, 219, 156, 1), rgba(85, 221, 119, 1));
+}
+
+.buttomBackground {
+  height: 80rpx;
+  background: #fff;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-top: -36rpx;
+}
+
+.navigationBackground {
+  position: absolute;
+  overflow-x: hidden;
+  height: 264rpx;
+  background: rgba(255, 255, 255, 1);
+  padding-top: -28rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  padding-left: 61rpx;
+  padding-right: 58rpx;
+}
+
+.icon {
+  width: 85rpx;
+  height: 85rpx;
+  background: linear-gradient(167deg, rgba(255, 153, 148, 1), rgba(255, 68, 103, 1));
+  border-radius: 34rpx;
+  margin-top: 80rpx;
+  margin-left: 96rpx;
+}
+
+.icon1 {
+  width: 85rpx;
+  height: 85rpx;
+  background: linear-gradient(167deg, rgba(255, 153, 148, 1), rgba(255, 68, 103, 1));
+  border-radius: 34rpx;
+  margin-top: 80rpx;
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  margin-top: -70rpx;
+}
+
+.iconText {
+  width: 100rpx;
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(78, 78, 78, 1);
+  margin-left: 80rpx;
+}
+
+.iconText1 {
+  width: 100rpx;
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(78, 78, 78, 1);
+}
+
+.page-section-spacing-swiper {
+  position: absolute;
+  margin-top: -230rpx;
+  margin-left: 35rpx;
+  width: 682rpx;
+  height: 287rpx;
+  background: rgba(227, 236, 241, 1);
+  box-shadow: 0rpx 12rpx 14rpx 2rpx rgba(199, 199, 199, 0.24);
+  border-radius: 20rpx;
+  z-index: 99;
+}
+
+.nullBlock {
+  position: relative;
+  height: 25rpx;
+  background: rgba(232, 232, 232, 1);
+}
+

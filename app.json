@@ -5,7 +5,7 @@
     "pages/welcome/index",
     "pages/welcome/login/index",
     "pages/welcome/register/index",
-    "pages/logs/logs"
+    "pages/mine/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -39,7 +39,7 @@
       {
         "selectedIconPath": "image/index.png",
         "iconPath": "image/index.png",
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/mine/index",
         "text": "我的"
       }
     ]

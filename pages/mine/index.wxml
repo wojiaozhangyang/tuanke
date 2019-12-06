@@ -1,0 +1,27 @@
+  <view class="header">
+    <view class="headerBackground"></view>
+    <view class="buttomBackground"></view>
+    <view class="navigationBackground">
+      <view class="icon1"></view>
+      <view class="icon"></view>
+      <view class="icon"></view>
+      <view class="icon"></view>
+      <view class="text">
+        <view class="iconText1">收藏</view>
+        <view class="iconText">关注</view>
+        <view class="iconText">评论</view>
+        <view class="iconText">粉丝</view>
+      </view>
+    </view>
+    <view class="page-section-spacing-swiper">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+
+  <view class="nullBlock"></view>

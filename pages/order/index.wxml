@@ -21,7 +21,7 @@
     </view>
   </view>
 
-  <view class='listBlock' wx:for="{{}}">
+  <view class='listBlock' wx:for="{{3}}">
     <view class='listHeader'>
       <text class='orderCode'>订单号：6548996055990</text>
       <text class='orderOk'>交易完成</text>
