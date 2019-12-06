@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/order/index",
     "pages/index/index",
     "pages/welcome/index",
     "pages/welcome/login/index",
@@ -26,13 +27,13 @@
       {
         "selectedIconPath": "image/index.png",
         "iconPath": "image/index.png",
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/welcome/index",
         "text": "发现"
       },
       {
         "selectedIconPath": "image/index.png",
         "iconPath": "image/index.png",
-        "pagePath": "pages/welcome/index",
+        "pagePath": "pages/order/index",
         "text": "订单"
       },
       {
