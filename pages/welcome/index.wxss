@@ -1,0 +1,71 @@
+/* pages/login/index.wxss */
+
+#welcome {
+  width: 750rpx;
+  height: 1334rpx;
+}
+
+.logoImg {
+  width: 150rpx;
+  height: 77rpx;
+  font-size: 81rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 129rpx;
+  margin: 301rpx 302rpx auto;
+}
+
+.descText1 {
+  height: 31rpx;
+  font-size: 32rpx;
+  font-family: PingFang;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+  line-height: 67rpx;
+  text-align: center;
+  margin-top: 75rpx;
+}
+
+.descText2 {
+  height: 31rpx;
+  font-size: 32rpx;
+  font-family: PingFang;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+  line-height: 67rpx;
+  text-align: center;
+  margin-top: 14rpx;
+}
+
+.loginButton {
+  height: 96rpx;
+  background: linear-gradient(77deg, rgba(85, 221, 119, 1), rgba(56, 219, 155, 1));
+  box-shadow: 0px 3rpx 7rpx 0rpx rgba(60, 150, 219, 0.35);
+  border-radius: 48rpx;
+  text-align: center;
+  margin-top: 228rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.loginButton text {
+  width: 68rpx;
+  height: 33rpx;
+  font-size: 36rpx;
+  font-family: PingFang;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 96rpx;
+}
+
+.regText{
+  height:34rpx;
+  font-size:36rpx;
+  font-family:PingFang;
+  font-weight:500;
+  color:rgba(153,153,153,1);
+  line-height:44rpx;
+  margin-top: 61rpx;
+  margin-left: 340rpx;
+}

@@ -1,0 +1,32 @@
+<!--pages/welcome/login/index.wxml-->
+<view id="login">
+  <view class="userName">哇塞</view>
+  <view class="descText">用心保障您的美好生活</view>
+  <view class="inputNameBlock">
+    <input class="inputNameValue" value="2576648622@qq.com"></input>
+  </view>
+  <input class="inputCodeValue" value="输入验证码"></input>
+  <view class="loginButton" bindtap="goLogin">
+    <text>登陆</text>
+  </view>
+
+  <view class="flexBlock">
+    <view>新用户注册</view>
+    <view>忘记密码</view>
+  </view>
+
+  <view class="title">
+    <view class="line"></view>
+    <view class="text">第三方登录</view>
+    <view class="line"></view>
+  </view>
+
+  <view class="twoFlexBlock">
+    <view class="webo"></view>
+    <view class="webo"></view>
+    <view class="webo"></view>
+    <view class="weboText">微博登陆</view>
+    <view class="weboText">微信登陆</view>
+    <view class="weboText">QQ登陆</view>
+  </view>
+</view>

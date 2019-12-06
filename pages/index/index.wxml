@@ -1,0 +1,65 @@
+<view id="index">
+  <view class="header">
+    <view class="headerBackground"></view>
+    <view class="buttomBackground"></view>
+    <view class="navigationBackground">
+      <view class="icon1"></view>
+      <view class="icon"></view>
+      <view class="icon"></view>
+      <view class="icon"></view>
+      <view class="text">
+        <view class="iconText1">情侣约会</view>
+        <view class="iconText">情侣约会</view>
+        <view class="iconText">情侣约会</view>
+        <view class="iconText">情侣约会</view>
+      </view>
+    </view>
+    <view class="page-section-spacing-swiper">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+
+  <view class="nullBlock"></view>
+  <view class="content">
+    <view class="">
+      <image class="tempImg" src="../../image/headTempImg.jpg"></image>
+    </view>
+    <view>
+      <image class="tempImg2" src="../../image/2.jpg"></image>
+    </view>
+  </view>
+
+
+  <van-tabs active="{{ active }}">
+    <van-tab title="附近推荐">
+      <view class="list">
+        <view class="listInfo" wx:for="{{5}}">
+          <image class="img" src="../../image/33.jpg"></image>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="美食推荐">
+      <view class="list">
+        <view class="listInfo" wx:for="{{13}}">
+          <image class="img" src="../../image/33.jpg"></image>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="请吧推荐">
+      <view class="list">
+       <view class="listInfo" wx:for="{{3}}">
+          <image class="img" src="../../image/33.jpg"></image>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="娱乐推荐">娱乐推荐</van-tab>
+    <van-tab title="更多推荐">更多推荐</van-tab>
+  </van-tabs>
+
+</view>

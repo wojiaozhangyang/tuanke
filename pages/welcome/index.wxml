@@ -1,0 +1,10 @@
+<!--pages/welcome/index.wxml-->
+<view id="welcome">
+  <view class="logoImg">Logo</view>
+  <view class="descText1">用心保障您的美好生活</view>
+  <view class="descText2">健康美好每一天</view>
+  <view class="loginButton" bindtap="goLogin">
+    <text>登陆</text>
+  </view>
+  <view class="regText">注册</view>
+</view>
